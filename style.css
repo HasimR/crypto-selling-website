@@ -1,0 +1,1946 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:radial-gradient(circle,rgb(13, 21, 54)0%,rgb(20, 11, 61)100%);
+}
+/* /////////////////////////// MONU /////////////////////////// */
+header nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    margin-top: 30px;
+}
+.head-logo{
+    background: #ba3aa1;
+    background: linear-gradient(to right, #ba3aa1 0%, #fd1d5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Be Vietnam Pro", sans-serif;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+nav ul li a{
+    color: rgb(124, 125, 148);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+   
+}
+nav ul li a:hover{
+    background: #ba3aa1;
+    background: linear-gradient(to right, #ba3aa1 0%, #fd1d5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+nav button{
+    
+    padding: 10px 25px;
+    font-size: 1.3rem;
+    border: 1.8px solid rgb(230, 9, 159);
+    border-radius: 8px;
+    background: none;
+    color: #fff;
+}
+nav button:hover{
+    background: #ba3aa1;
+    background: linear-gradient(to right, #ba3aa1 0%, #fd1d5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: inset 2px 2px 20px rgb(230, 9, 159);
+    
+    
+}
+.clickbtn{
+    color: #fff;
+    float: right;
+    cursor: progress;
+    display: none;
+    background: #ba3aa1;
+    background: linear-gradient(to right, #ba3aa1 0%, #fd1d5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#click{
+    display: none;
+}
+button{
+    cursor: not-allowed;
+}
+.clickbtn{
+    display: none;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* 
+
+
+.head h1{
+  position: relative;
+  display: inline-block;
+  background:linear-gradient(to right, rgb(223,28,255),rgb(234,0,112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+ol{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 70px;
+    list-style: none;
+}
+ol a{
+    color: rgb(124,125,148);
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.click-btn{
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+ol a:hover{
+    color: #fff;
+}
+.head-btn button{
+    height: 35px;
+    width: 130px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(230,9,159);
+    font-family: "Be Vietnam Pro", sans-serif;
+    box-shadow: inset 2px 2px 13px rgb(230,9,159);
+}
+.head-btn button:hover{
+    box-shadow: none;
+    background-color: transparent;
+    box-shadow:3px 3px 8px rgb(230,9,159);
+/* }
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+#section-one{
+    height: 830px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 100px;
+}
+.section-one-left{
+    height: 570px;
+    width: 50%;
+}
+.left-heading{
+    width: 100%;
+    
+}
+.left-heading h1{
+    width: 90%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #fff;
+    font-size: 55px;
+    padding-top: 138px;
+    padding-left: 70px;
+}
+.left-heading h1 span{
+   font-family:"Be Vietnam Pro", sans-serif;
+   color: rgb(30,224,225);
+   font-weight: 200;
+   font-size: 55px;
+   word-spacing: 5px;
+   padding-left: 10px;
+}
+.left-heading p{
+    width: 75%;
+    color:rgb(211,206,216) ;
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 35px;
+    line-height: 32px;
+    font-family:"Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    word-spacing: 2px;
+}
+.left-heading-img{
+    min-height: 90px;
+    width: 90px;
+    background-image: url(image\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    float: right;
+}
+.left-heading button{
+    height: 45px;
+    width: 160px;
+    border-radius: 8px;
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.left-heading button:hover{
+    background: transparent;
+    border: 2px solid rgb(230,9,159);
+}
+.section-one-right{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 70px;
+
+    
+  
+
+}
+
+.upper-layear{
+   height:490px;
+   width: 490px;
+   border-radius: 50%;
+   border: 2px solid cyan;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: inset 2px 2px 20px cyan;
+}
+.under-layear{
+    height: 85%;
+    width: 85%;
+    border-radius: 50%;
+    background-image: url(image\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.down-image{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 2px solid rgb(230,9,159);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 120px;
+    right: 320px;
+    background-color: rgb(25,31,64);
+}
+.eye-container{
+    height: 300px;
+    width: 710px;
+    margin-left: 70px;
+    
+    
+}
+.eye-box{
+   display: flex;
+   justify-content:left;
+   align-items: center;
+   gap: 20px;
+}
+
+.eye{
+    height: 50px;
+    width: 50px;
+    background-image: url(eye.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eye-box h2{
+   color: #fff;
+   font-family: "Be Vietnam Pro", sans-serif;
+   font-weight: 500;
+   font-size: 30px;
+}
+.people-box{
+    height: 120px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap: 50px;
+    padding-top: 40px;
+}
+.box-1,.box-2{
+    display: flex;
+    gap: 30px;
+}
+.people-box-one, .people-box-two, .people-box-three, .people-box-four{
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   flex-direction: column;
+}
+.people-box-one p, .people-box-two p, .people-box-three p, .people-box-four p{
+   color: rgb(124,125,148);
+   font-family: "Be Vietnam Pro", sans-serif;
+}
+.people-box-one h3, .people-box-two h3, .people-box-three h3, .people-box-four h3{
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+#section-two{
+    height: 1700px;
+    width: 91%;
+    margin: auto;
+    
+}
+.sec-two-heading{
+    height: 120px;
+    width: 70%;
+    margin: auto;
+}
+.sec-two-heading h1{
+    text-align: center;
+    color:rgb(30,224,225);
+    font-family: "Be Vietnam Pro", sans-serif;; 
+    font-size: 45px;
+    font-weight: 100;
+}
+.sec-two-heading h1 span{
+    color: #fff;
+    font-size: 45px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+}
+.sec-two-option{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+
+
+.sec-two-option a{
+    text-decoration: none;
+    color: rgb(174, 173, 173);
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.sec-two-option a:hover{
+    color: #fff;
+    
+}
+.series-container{
+    height: 53%;
+   width: 100%;
+    
+    
+}
+.series-first, .series-second{
+    height: 62%;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+   
+}
+.series-one, .series-two, .series-three, .series-four, .series-five, .series-six{
+   width: 29.999%;
+   height: 100%;
+   background-color: rgb(34, 37, 72);
+   border-radius: 22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.series-image-one{
+    height: 80%;
+    width: 80%;
+    border-radius: 18px;
+    background-image: url(image\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    margin-top: 38px;
+}
+.series-image-two{
+    height: 80%;
+    width: 80%;
+    border-radius: 18px;
+    background-image: url(image\ 10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    margin-top: 38px;
+}
+.series-image-three{
+    height: 70%;
+    width: 80%;
+    border-radius: 18px;
+    background-image: url(image\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+
+}
+
+
+/* }///////////////////////////////////////////////////////////// */
+.card {
+    height: 85%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card img{
+   height: 83%;
+   width: 80%;
+   margin-bottom: 35px;
+}
+.heart{
+    height: 55px;
+    width: 55px;
+    background-color: rgba(200,200,210,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.heart-one{
+    height: 55px;
+    width: 55px;
+    background-color: rgba(200,200,210,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.heart-one i{
+    font-size: 22px; 
+    color: rgb(250,108,1);
+}
+
+.heart i{
+    font-size: 22px;
+    color: rgb(199,199,199);
+   
+}
+.img-with-img-one{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(samurai-hasim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img-with-img-two{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(image\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img-with-img-three{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(image\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img-with-img-four{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(image\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img-with-img-five{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.img-with-img-six{
+    height:80%;
+    width: 95%;
+    margin-bottom: 10px;
+    background-image: url(image\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.main{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.series-para{
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 22px;
+}
+.star{
+   height: 20px;
+   width: 130px;
+   background-image: url(Frame\ 1000001247.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 15px;
+}
+.series-logo{
+    height: 30px;
+    width: 80px;
+    display: flex;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    background-image: url(Ethereum.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.series-logo p{
+   color: #fff;
+   font-size: 25px;
+   font-family: "Be Vietnam Pro", sans-serif;
+}
+.intro button{
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    color: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+#intro-btn{
+    height: 40px;
+    width: 80%;
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    color: #fff;
+    cursor: pointer;
+    
+}
+.intro button:hover{
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    color: #fff;
+    cursor: pointer;
+}
+.last-btn{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:last baseline;
+}
+.last-btn button{
+    height: 45px;
+    width: 180px;
+    color:#fff;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid rgb(230,9,159);
+    border-radius: 10px;
+}
+.last-btn button:hover{
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    border:none;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+#section-three{
+    height: 960px;
+    width: 100%;
+    background:linear-gradient(to top,rgb(3, 6, 12),rgb(3, 15, 54));
+   
+}
+.sell-container{
+    height: 150px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.unique{
+    height: 40px;
+    width: 140px;
+    background:linear-gradient(90deg ,rgb(26, 164, 192),rgb(23, 37, 68));
+    color:rgb(205,208,214);
+    border-radius: 20px;
+    border: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.unique:hover{
+    background:linear-gradient(90deg ,rgb(23, 37, 68),rgb(26, 164, 192));
+}
+.sell-container h1{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    
+}
+.sell-container h1 span{
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: rgb(30,224,225);
+    font-weight: 300;
+    font-size: 45px;
+}
+.sell-box{
+    height: 300px;
+    width: 91%;
+    margin: auto;
+    background-color:transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items:first baseline;
+    gap: 30px;
+}
+.sell-box-one, .sell-box-two{
+    width: 50%;
+}
+.sell-box-main{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+    
+}
+.sell-box-main-one{
+    height: 92px;
+    width: 75%;
+    background-color: rgb(18, 47, 83);
+    margin-top: 30px;
+    display: flex;
+    justify-content:left;
+    align-items:end;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sell-box-main-one h2{
+    width: 90%;
+    padding-left: 40px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.sell-box-main-two{
+    height: 122px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    right: 12px;
+    border-bottom-left-radius: 30px;
+}
+.sell-box-logo-one{
+    height: 70px;
+    width: 60px;
+    background-image: url(Coin\ Wallet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sell-box-logo-two{
+    height: 70px;
+    width: 60px;
+    background-image: url(Add\ New.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sell-box-main-three{
+    height: 110px;
+    width: 95%;
+    background-color: rgb(18, 47, 83);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.sell-box-main-three p{
+    width: 80%;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-top: 20px;
+    margin-left: 40px;
+    line-height: 27px;
+
+}
+.sell-box-second{
+    height: 300px;
+    width: 91%;
+    margin: auto;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+}
+.sell-box-logo-three{
+    height: 70px;
+    width: 60px;
+    background-image: url(NFT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sell-box-logo-four{
+    height: 70px;
+    width: 60px;
+    background-image: url(Sell.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+.back-color{
+    height: 1070px;
+    width: 100%;
+    background-color: #000;
+   
+}
+#section-four{
+    height: 1070px;
+    width: 91%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper-container{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.upper-container h1 span{
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: rgb(30,224,225);
+    font-weight: 300;
+    font-size: 45px;
+}
+.upper-container h1 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    color:#fff;
+    font-weight: 700;
+    font-size: 45px;
+}
+.upper-container p{
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 30px;
+    color: #fff;
+}
+.container-image{
+    height: 750px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.container-image-one, .container-image-two{
+    height: 330px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.container-image-one .image-1{
+    height: 330px;
+    width: 32%;
+    
+}
+.container-image-one .image-2{
+    height: 330px;
+    width: 65%;
+}
+.container-image-two .image-3{
+    height: 330px;
+    width: 65%;
+}
+.container-image-two .image-4{
+    height: 330px;
+    width: 32%; 
+}
+.sec-4-btn button{
+    height: 50px;
+    width: 250px;
+    background-color:rgb(27,14,48);
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgb(230,9,159);
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 17px;
+}
+.sec-4-btn button:hover{
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    border: none;
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.back{
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+}
+.web-logo{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.web-sec-1, .web-sec-2, .web-sec-3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.web-logo-one{
+    height: 80px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.web-logo-two{
+    height: 80px;
+    width: 18%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-logo-three{
+    height: 80px;
+    width: 16%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-logo-four{
+    height: 80px;
+    width: 16%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-logo-five{
+    height: 80px;
+    width: 10%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-logo-six{
+    height: 80px;
+    width: 18%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+#crypto-market{
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+}
+.crypto-market-container{
+    height: 500px;
+    width: 91%;
+    margin: auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+
+}
+.container-left{
+    height: 400px;
+    width: 33.999%;
+}
+.container-left h3{
+    width: 60%;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.container-left h3 span{
+    color: aqua;
+    font-weight: 200;
+}
+
+.container-left p{
+    width: 80%;
+    color: #bebebe;
+   font-family: "Be Vietnam Pro", sans-serif;
+   padding-top: 30px;
+   font-weight: 200;
+
+}
+.container-left button{
+    height: 50px;
+    width: 175px;
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 17px;
+    border: none;
+}
+.container-left button:hover{
+    background-color:rgb(27,14,48);
+    border: 1px solid rgb(230,9,159);
+    background: none;
+}
+.container-right{
+    height: 400px;
+    width: 66%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.container-right-one{
+    height: 400px;
+    width: 50%;
+}.container-right-two{
+    height: 400px;
+    width: 50%;
+}
+.container-right-one-image{
+    height: 280px;
+    width: 100%;
+    background-image: url(unsplash_voe-XbwNlGQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+}
+.container-right-two-image{
+    height: 280px;
+    width: 100%;
+    background-image: url(unsplash_hQIJon1QhZ8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+}
+.container-right-one p, .container-right-two p{
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #bebebe;
+    padding-top: 20px;
+}
+.container-right-one h2, .container-right-two h2{
+    width: 80%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #fff; 
+    font-size: 22px;
+    padding-top: 20px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+#touch{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #000;
+}
+.touch-container{
+   height: 350px;
+   width: 50%;
+   text-align: center;
+   
+}
+.touch-head{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+
+}
+.touch-head h1{
+    
+    font-size: 65px;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 0px black, 4px 4px 0px cyan;
+}
+.touch-head p{
+    width: 75%;
+    color: #fff;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-top: 15px;
+    line-height: 23px;
+}
+.touch-lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.touch-lower input{
+    height: 65px;
+    width: 80%;
+    border-radius: 12px;
+    font-size: 25px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgb(13,13,45);
+    margin-top: 40px;
+    color:#fff;
+}
+.touch-lower button{
+    margin-top: 30px;
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background:linear-gradient(to right, rgb(255, 28, 213)10%,rgb(234,0,112));
+}
+.touch-lower button:hover{
+    background-color:rgb(27,14,48);
+    border: 1px solid rgb(230,9,159);
+    background: none;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+#foot{
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.footer-container{
+    height: 500px;
+    width: 91%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-logo-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo-container-1,.logo-container-2,.logo-container-3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.footer-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(10, 42, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.footer-logo:hover{
+    border: 2px solid rgb(230,9,159);
+}
+.under-logo-1, .under-logo-2, .under-logo-3{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(26,18,79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.under-logo-3:hover{
+   height: 37px;
+   width: 37px;
+   background-image: url(pngtree-green-phone-icon-offer-pictogram-telephone-vector-png-image_23595488.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.under-logo-2:hover{
+   background-image: url(Telegram_2019_Logo.svg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.under-logo-1:hover{
+    background-image: url(a32666f576e21a3b24e85d0b1855d35a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-container-1 p,.logo-container-2 p,.logo-container-3 p{
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-top: 8px;
+}
+.icon-container{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fb, .linkin, .tweet, .youtube{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(26,18,79);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb:hover, .linkin:hover{
+    background-color: #fff;
+    color: rgb(24, 119, 242);
+}
+.fb i, .linkin i, .tweet i, .youtube i{
+    font-size: 17px;
+}
+.fb i:hover{
+   color: rgb(24, 119, 242);
+}
+.tweet:hover{
+   background-color: #fff;
+   color: rgb(29 161 242); 
+}
+.youtube:hover{
+    background-color: #fff;
+    color: rgb(205, 32, 31); 
+}
+.line{
+    height: 1px;
+    width: 91%;
+    background-color: rgb(106, 106, 106);
+}
+.last-line{
+    height: 100px;
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.last-menu{
+    width: 40%;
+   display: flex;
+   justify-content: space-between;
+   float: right;
+}
+
+.last-line p{
+   
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+
+.last-line a{
+    
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #c8c7c7;
+    
+   
+    
+    
+}
+.last-line a:hover{
+    color: #fff;
+}
+/* ////////////////////////////////////// monu ////////////////////////////////////////// */
+@media (max-width:1102px) {
+    .clickbtn{
+        display: block;
+        font-size: 35px;
+    }
+    ul{
+        z-index: 1;
+        position: fixed;
+        width: 250px;
+        height: 450px;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        background-color: rgba(255,255,255,0.7);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        color: #000;
+    }
+    nav ul li a:hover, nav ul li a:focus-within{
+        color: cyan;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    /* //////////////////////////////////////////// monnu end //////////////////////////////*/
+    
+    .head{
+        
+    }
+    .head h1{
+        
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    ol{ 
+       display: none;
+       
+    } 
+    nav ol li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .series-para{
+        font-size: 17px;
+    }
+    .series-logo{
+      
+        
+    }
+    .series-logo p{
+        font-size: 22px;
+    }
+    .head-btn{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        margin-left: 65px;
+        
+    }
+    nav button{
+    
+        
+        font-size: 1.1rem;
+        border: 1.8px solid rgb(230, 9, 159);
+        border-radius: 8px;
+        background: none;
+        color: #fff;
+    }
+    .last-line p{
+        width: 100%;
+    }
+    .last-line a{
+        display: none;
+    }
+    #section-one{
+        padding-top: 0;
+    }
+
+    
+}
+@media (max-width:960px) {
+    #section-one{
+        height: 1350px;
+        flex-direction: column;
+       
+    }
+    .section-one-left{
+        width: 91%;
+        height: 620px;
+        
+    }
+    .section-one-right{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .left-heading-img{
+       
+       margin-right: 50px;
+       
+        
+    }
+    .left-heading{
+        height: 570px;
+        width: 90%;
+        margin: auto;
+    }
+    .left-heading h1{
+        width: 100%;
+        padding-left: 0;
+    }
+    .left-heading p{
+        width: 90%;
+        padding-left: 0;
+    }
+    .left-heading button{
+        margin-left: 0;
+    }
+    .down-image{
+        right: 0;
+        bottom: 80px;
+    }
+    .eye-container{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .eye-box{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+
+    }
+    
+
+      
+    
+    .people-box{
+        height: 300px;
+        width: 70%;
+        gap: 30px;
+        justify-content:space-evenly;
+        align-items:baseline;
+       
+        
+    }
+    .box-1,.box-2{
+        display: flex;
+        flex-direction: column;
+    }
+    #section-two{
+       height: 3850px;
+    }
+    
+    .series-first, .series-second{
+        height: 1640px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .series-one, .series-two, .series-three, .series-four, .series-five, .series-six{
+       
+        width: 59%;
+    }
+    #section-three{
+        height: 1350px;
+    }
+    .sell-container{
+        margin-bottom: 50px;
+    }
+    .sell-box, .sell-box-second{
+        width: 91%;
+        height: 525px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sell-box-one, .sell-box-two{
+        width: 91%;
+    }
+    .sell-box-three, .sell-box-four{
+        width: 91%;
+    }
+    .upper-container p{
+        width: 60%;
+    }
+    .back{
+        height: 330px;
+    }
+    .web-logo{
+        height: 300px;
+    }
+    .web-sec-1, .web-sec-2, .web-sec-3{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    #crypto-market{
+    height: 600px;
+    }
+    .touch-container{
+        width: 90%;
+    }
+
+     
+    }
+    @media (max-width:750px) {
+        .eye-box{
+            flex-direction: column-reverse;
+        }
+        .eye-box h2{
+            text-align: center;
+        }
+        .sell-container{
+            height: 200px;
+            text-align: center;
+        }
+        
+        
+    } 
+    @media (max-width:680px) {
+        .footer-logo-container{
+            width: 100%;
+        }
+        .back{
+            height: 600px;
+        }
+      .web-logo{
+        display: flex;
+        flex-direction: column;
+      } 
+      .sec-two-heading{
+        margin-top: 40px;
+        width: 100%;
+      } 
+      header nav{
+        padding: 0 60px;
+        padding-right: 40px;
+      }
+    }  
+    @media (max-width:550px) {
+        .head h1{
+            padding-right: 46px;
+        }
+        .head-btn{
+            margin-left: 45px;
+        }
+        .click-btn{
+            font-size: 40px;
+        }
+        .left-heading h1{
+            font-size: 50px;
+            padding-top: 100px;
+        }
+        .left-heading h1 span{
+            font-size: 50px;
+        }
+        .upper-layear{
+            height: 380px;
+            width: 380px;
+        }
+        #foot{
+           height: 580px;
+        }
+        .footer-logo-container{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+        }
+        .icon-container{
+            margin-top: 50px;
+        }
+        #crypto-market{
+            height: 1250px;
+        }
+        .crypto-market-container{
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+        }
+        .container-left{
+            width: 100%;
+        }
+        .container-left h3{
+            width: 100%;
+        }
+        .container-left button{
+            height: 40px; 
+            width: 150px;
+            margin-top: 40px;
+        }
+        
+        .container-right{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .container-right-one, .container-right-two{
+            width: 100%;
+        }
+        .touch-lower input{
+            font-size: 19px;
+        }
+
+    }
+    @media (max-width:452px){
+        #touch{
+            height: 500px;
+        }
+         .touch-head{
+            height: 250px;
+         }
+    }
+    @media (max-width:425px) {
+        nav{
+            padding-top: 30px;
+        }
+        
+        .clickbtn{
+            font-size: 30px;
+           padding: 0 38px;
+           
+        }
+        header nav{
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .head-logo{
+            margin-right: 33px;
+        }
+        nav button{
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            margin-right: 30px;
+            position: relative;
+            right: 20px;
+        }
+        nav button{
+            display: none;
+        }
+        
+        .left-heading h1{
+            font-size: 45px;
+        }
+        .left-heading h1 span{
+            font-size: 45px;
+        }
+        #section-one{
+            height: 1220px;
+        }
+        .section-one-right{
+            justify-content: flex-start;
+        }
+        .eye-box{
+            width: 90%;
+        }
+        .people-box{
+            width: 90%;
+        }
+        .sec-two-option{
+            font-size: 12px;
+            width: 100%;
+        }
+        .series-one, .series-two, .series-three, .series-four, .series-five, .series-six{
+            width: 91%;
+        }
+        #section-two{
+            height: 3780px;
+        }
+        .logo{
+            height: 20px;
+            width: 20px;
+        }
+        .series-logo{
+            width: 50px;
+        }
+        .series-logo p{
+            font-size: 17px;
+        }
+        .down-image{
+            height: 140px;
+            width: 140px;
+            font-size: 20px;
+        }
+        .series-second{
+            margin-top: 50px;
+        }
+        .sell-box{
+            height: 575px;
+        }
+        .sell-container{
+            height: 250px;
+        }
+        .sell-box-one{
+            height: 272px;
+        }
+        .sell-box-main-three{
+            height: 150px;
+        }
+        .sell-box-main-two{
+            right: -15px;
+            bottom: 10px;
+        }
+        .sell-box-second{
+            height: 625px;
+        }
+        #section-three{
+            height: 1572px;
+        }
+        .upper-container{
+            height: 350px;
+        }
+        .upper-container p{
+            width: 90%;
+            
+        }
+        #section-four{
+            height: 1000px;
+            gap: 45px;
+        }
+    }
+    @media (max-width:390px) {
+        .upper-layear{
+            height: 300px;
+            width: 300px;
+        }
+        .down-image{
+            height: 115px;
+            width: 115px;
+            font-size: 16px;
+            bottom: 45px;
+        }
+        .head h1{
+            font-size: 30px;
+            padding-right: 75px;
+        }
+        .click-btn{
+            font-size: 30px;
+            margin-bottom: 26px;
+        }
+        .head-btn{
+            margin-left: 37px;
+            top: 85px;
+        }
+        .head-btn button{
+            height: 30px;
+            width: 122px;
+            font-size: 13px;
+        }
+        #section-one{
+            padding-top: 85px;
+        }
+        .left-heading{
+            height: 480px;
+        }
+        .left-heading h1, .left-heading h1 span{
+            font-size: 38px;
+        }
+        .left-heading p{
+            font-size: 17px;
+            line-height: 25px;
+        }
+        .left-heading-img{
+           min-height: 60px;
+           width: 60px;
+           margin-right: 0;
+        }
+        .left-heading button{
+            margin-top: 45px;
+            height: 40px;
+            width: 145px;
+            border: none;
+        }
+        #section-one{
+            height: 1015px;
+        }
+        .last-btn{
+            height: 115px;
+        }
+        #section-two{
+            height: 3730px;
+        }
+        .sell-container h1, .sell-container h1 span{
+            font-size: 35px;
+        }
+        .upper-container h1, .upper-container h1 span{
+            font-size: 35px;
+        }
+        .upper-container p{
+            font-size: 15px;
+        }
+        .sell-box-main-one h2{
+            font-size: 20px;
+        }
+        .sell-box-main-three p{
+            font-size: 15px;
+            line-height: 24px;
+        }
+        .container-image{
+            gap: 8px;
+        }
+        .sec-4-btn button{
+            height: 45px;
+            width: 200px;
+            font-size: 14px;
+        }
+        .sell-box-main-two{
+            bottom: -15px;
+        }
+        .touch-head h1{
+            font-size:55px;
+            
+        }
+        .touch-head p{
+            width: 89%;
+            font-size: 15px;
+        }
+        .touch-lower input{
+            margin-top: 10px;
+            padding-left: 10px;
+            font-size: 15px;
+            height: 45px;
+            border: 1px solid #fff;
+        }
+        .touch-lower button{
+            height: 35px;
+            width: 125px;
+            font-size: 15px;
+        }
+        .touch-container{
+            height: 600px;
+        }
+        #crypto-market{
+            height: 1300px;
+        }
+        #touch{
+            height: 410px;
+        }
+        .logo-container-1 p, .logo-container-2 p, .logo-container-3 p{
+            padding-top: 0;
+            font-size: 15px;
+        }
+        .footer-logo-container{
+            gap: 30px;
+        }
+        .footer-container{
+            height: 570px;
+        }
+        .footer-logo{
+            margin-bottom: 10px;
+        }
+        .line{
+            height: 1px;
+            background-color: aqua;
+        }
+        .last-menu{
+            width: 0;
+        }
+        .last-line p{
+            font-size: 12px;
+        }
+        .heart{
+            height: 45px;
+            width: 45px;
+        }
+        .heart-one{
+            height: 45px;
+            width: 45px;
+        }
+        .heart-one i, .heart i{
+            font-size: 18px;
+        }
+    }
+        @media (max-width:330px) {
+            .head-btn{
+                margin-left: 28px;
+            }
+            .left-heading{
+                height: 515px;
+            }
+            #section-one{
+                height: 1055px;
+                padding-top: 0;
+            }
+            .people-box{
+                width: 90%;
+            }
+            .sec-two-heading{
+                margin-top: 100px;
+            }
+            .img-with-img-one, .img-with-img-two,.img-with-img-three, .img-with-img-four, .img-with-img-five, .img-with-img-six{
+                height: 88%;
+                width: 100%;
+                margin-top: 5px;
+            }
+            ul{
+                width: 150px;
+                height: 300px;
+                top: 70px;
+                left: -100%;
+                text-align: center;
+                transition: all 0.5s;
+                background-color: rgba(255,255,255,0.7);
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            nav ul li{
+                display: block;
+                margin: 50px 0;
+                line-height: 0px;
+                
+            }
+            nav ul li a{
+                font-size: 16px;
+            }
+            
+            
+        }
+
+    
+
